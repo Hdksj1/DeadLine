@@ -1,0 +1,26 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Local logs and editor settings
+*.log
+.idea/
+.vscode/
+
+# Existing nested clone; retained locally, never add as a gitlink.
+/DeadLine/
